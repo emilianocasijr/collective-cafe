@@ -193,6 +193,17 @@ nav button {
 @media screen and (min-width: 820px) {
   .about-us {
     margin-top: 8%;
+    width: 50%;
+  }
+}
+
+.about-us img {
+  width: 100%;
+}
+
+@media screen and (min-width: 820px) {
+  .about-us img {
+    max-width: 600px;
   }
 }
 
