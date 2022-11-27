@@ -87,6 +87,7 @@ nav .hamburger-icon {
   transition: all 1.5s ease;
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(157deg)
     brightness(102%) contrast(105%);
+  cursor: pointer;
 }
 
 nav button {
@@ -523,6 +524,8 @@ nav button {
 @media screen and (min-width: 820px) {
   .google-maps {
     text-align: center;
+    position: relative;
+    z-index: 2;
   }
 }
 
