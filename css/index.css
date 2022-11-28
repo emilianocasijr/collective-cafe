@@ -43,7 +43,7 @@ nav ul {
 
 nav .logo {
   position: absolute;
-  width: 65%;
+  height: 51vh;
   display: block;
   left: 0;
   right: 0;
@@ -247,7 +247,7 @@ nav button {
 }
 
 .nav-scrolled .logo {
-  max-height: 80%;
+  height: 10vh;
   position: absolute;
   top: 0;
   transition: all 1.5s ease;
