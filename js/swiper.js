@@ -15,7 +15,6 @@ const appearOptions = {
 
 const bodyObserver = new IntersectionObserver(function (entries, bodyObserver) {
   entries.forEach((entry) => {
-    console.log("body section");
     if (entry.isIntersecting) {
       nav.classList.add("nav-scrolled");
       heroImage.classList.remove("hero-blur");
