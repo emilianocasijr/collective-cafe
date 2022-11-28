@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to The Collective Cafe. We offer good drinks, enjoyable place to hang-out, while also being a place of fruitful discussion. Located at Km.6 La Trinidad."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="/img/hero-background.webp" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=optional"
       rel="stylesheet"
     />
     <link
@@ -40,12 +45,19 @@
       <ul>
         <li>
           <a href=""
-            ><img class="instagram-icon" src="./img/instagram.png" alt="instagram"
+            ><img
+              class="instagram-icon"
+              src="./img/instagram.png"
+              alt="instagram"
           /></a>
         </li>
         <li>
           <button class="hamburger">
-            <img class="hamburger-icon" src="./img/hamburger.png" alt="hamburger-menu" />
+            <img
+              class="hamburger-icon"
+              src="./img/hamburger.png"
+              alt="hamburger-menu"
+            />
           </button>
         </li>
       </ul>
@@ -77,23 +89,23 @@
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide">
-            <img src="./img/product-placeholder.webp" alt="" />
+            <img src="./img/product-placeholder.webp" alt="" loading="lazy" />
             <h3>Espresso</h3>
           </div>
           <div class="swiper-slide">
-            <img src="./img/product-placeholder.webp" alt="" />
+            <img src="./img/product-placeholder.webp" alt="" loading="lazy" />
             <h3>Americano</h3>
           </div>
           <div class="swiper-slide">
-            <img src="./img/product-placeholder.webp" alt="" />
+            <img src="./img/product-placeholder.webp" alt="" loading="lazy" />
             <h3>Capuccino</h3>
           </div>
           <div class="swiper-slide">
-            <img src="./img/product-placeholder.webp" alt="" />
+            <img src="./img/product-placeholder.webp" alt="" loading="lazy" />
             <h3>Passion Rasperry</h3>
           </div>
           <div class="swiper-slide">
-            <img src="./img/product-placeholder.webp" alt="" />
+            <img src="./img/product-placeholder.webp" alt="" loading="lazy" />
             <h3>Passion</h3>
           </div>
         </div>
@@ -113,6 +125,7 @@
               class="location-img slide-in from-bottom"
               src="./img/location.webp"
               alt="Building location photo"
+              loading="lazy"
             />
             <div class="text-details">
               <div class="pin-location slide-in from-bottom">
@@ -120,6 +133,7 @@
                   class="icon"
                   src="./img/pin.svg"
                   alt="Pin image. Location on map."
+                  loading="lazy"
                 />
                 <p class="pin-location-text">
                   Km. 6, Halsema Highway, Poblacion, La Trinidad, 2601 Benguet
@@ -130,6 +144,7 @@
                   class="icon"
                   src="./img/clock.svg"
                   alt="Clock image. Operating times."
+                  loading="lazy"
                 />
                 <p class="operating-time-text">
                   Serving from 10:00 AM - 10:00 PM
@@ -153,7 +168,11 @@
         <li>
           <a href="">
             <div class="messenger wrapper slide-in from-left">
-              <img src="./img/messenger.svg" alt="messenger contact details" />
+              <img
+                src="./img/messenger.svg"
+                alt="messenger contact details"
+                loading="lazy"
+              />
               <div class="details">
                 <h3>The Collective Cafe</h3>
                 <p>Messenger</p>
@@ -164,7 +183,11 @@
         <li>
           <a href="">
             <div class="whatsapp wrapper slide-in from-left">
-              <img src="./img/whatsapp.svg" alt="whatsapp contact details" />
+              <img
+                src="./img/whatsapp.svg"
+                alt="whatsapp contact details"
+                loading="lazy"
+              />
               <div class="details">
                 <h3>The Collective Cafe</h3>
                 <p>WhatsApp</p>
@@ -175,7 +198,11 @@
         <li>
           <a href="">
             <div class="email wrapper slide-in from-left">
-              <img src="./img/email.svg" alt="email contact details" />
+              <img
+                src="./img/email.svg"
+                alt="email contact details"
+                loading="lazy"
+              />
               <div class="details">
                 <h3>CollectiveCafe@gmail.com</h3>
                 <p>Gmail</p>
@@ -186,7 +213,11 @@
         <li>
           <a href="">
             <div class="phone wrapper slide-in from-left">
-              <img src="./img/phone.svg" alt="phone contact details" />
+              <img
+                src="./img/phone.svg"
+                alt="phone contact details"
+                loading="lazy"
+              />
               <div class="details">
                 <h3>+63950 203 3959</h3>
                 <p>SMS/Call</p>
@@ -205,6 +236,7 @@
           src="./img/about-us.webp"
           alt="Collective Cafe Founders"
           class="slide-in from-bottom"
+          loading="lazy"
         />
         <a href="about-us" class="slide-in from-bottom">MORE ABOUT US</a>
       </div>
@@ -220,7 +252,10 @@
     </div>
 
     <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+      defer
+    ></script>
     <!-- Initialize Swiper -->
     <script src="js/swiper.js"></script>
   </body>
