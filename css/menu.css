@@ -203,6 +203,7 @@ h2 {
   margin: auto;
   display: block;
   margin-top: 40px;
+  min-height: 200px;
 }
 
 h3 {
@@ -212,11 +213,35 @@ h3 {
   margin-bottom: 10px;
 }
 
+.menu-nav {
+  margin-bottom: 50px;
+}
+
+.menu-nav-item {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 0px;
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
 .menu p {
   display: block;
   margin-top: 30px;
   width: 80%;
   margin: auto;
+  text-align: left;
+}
+
+.menu p.centered {
+  text-align: center;
+}
+
+.menu p.description {
+  font-size: 18px;
 }
 
 @media screen and (min-width: 820px) {
