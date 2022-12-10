@@ -352,6 +352,10 @@ nav button {
   padding-bottom: 2.6875rem;
 }
 
+.products .swiper-slide {
+  margin: auto;
+}
+
 .products img {
   width: 70%;
   margin-bottom: 10px;
