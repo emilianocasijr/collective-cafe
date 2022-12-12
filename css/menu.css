@@ -52,6 +52,10 @@ nav .logo {
   animation: fadein 1.5s;
 }
 
+.quenchers {
+  font-family: "Shadows Into Light", cursive;
+}
+
 @media screen and (min-width: 820px) {
   nav ul {
     margin-top: 3%;
@@ -211,6 +215,10 @@ h2 {
   display: block;
   margin-top: 40px;
   min-height: 200px;
+}
+
+.menu .last-check {
+  margin-bottom: 10px;
 }
 
 h3 {
