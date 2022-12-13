@@ -380,6 +380,11 @@ nav button {
   margin-bottom: 10px;
 }
 
+.products video {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
 .products h3 {
   font-size: 28px;
 }
