@@ -223,6 +223,14 @@ h2 {
   min-height: 200px;
 }
 
+.menu video {
+  width: 80%;
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+  min-height: 200px;
+}
+
 .menu .last-check {
   margin-bottom: 10px;
 }
